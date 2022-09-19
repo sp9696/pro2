@@ -1,0 +1,479 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+	animation-name: backgroundColorPalette;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+}
+
+@keyframes backgroundColorPalette {
+	0% {
+		background: #e0f9cb;
+	}
+	25% {
+		background: #cdf5f6;
+	}
+	50% {
+		background: #eff9da;
+	}
+	75% {
+		background: #f9ebdf;
+	}
+	100% {
+		background: #f9d8d6;
+	}
+}
+
+.navbar
+{
+     /* position: fixed;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(51,51,51,0.6);
+    color: aliceblue;
+}
+
+.brand-name
+{
+    font-size: 3em;
+    margin:0.2em;
+    font-family: 'SerreriaExtravaganteMedium';
+}
+
+.nav-links ul
+{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    font-family: 'AlexBrushRegular';
+}
+
+.nav-links li
+{
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+.nav-links li a
+{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    padding: 1em;
+
+}
+
+.nav-links li a:hover
+{
+    background-color:rgb(180, 191, 198)
+    
+}
+
+.toggle-button
+{
+    position: absolute;
+    top:0.75rem;
+    right:1rem;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+    width:50px;
+    height: 50px;
+}
+
+.toggle-button .bar
+{
+    height: 8px;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.head1
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.table
+{
+    width:100%;
+}
+/* .tablerow
+{
+    margin-bottom: 10px;
+} */
+.tabledata
+{
+    width:25%;
+    border:20px solid #9d9b7b;
+    border-radius: 15px;
+    /* border-bottom: 45px solid red; */
+    text-align: center;
+    padding-bottom:-20px;
+    padding-top:3px;
+}
+.tablebutton
+{
+   text-align: center;
+}
+.headforlaptop
+{
+    font-family: 'WachinangaRegular';
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+.cart
+{
+    margin-bottom: 1vw;
+    background-color: rgb(243, 255, 172);
+    padding:1vw;
+    border-radius: 0.5vw;
+}
+.cart:hover
+{
+    padding:1.1vw;
+    background-color: rgb(217, 234, 134);
+}
+
+.product1, .product2
+{
+    width:100%;
+    max-width: 300px;
+    height: 300px;
+    max-height: 300px;
+}
+
+#shop
+{
+    position:fixed;
+    bottom: 2px;
+    right:0px;
+    width:40px;
+    height: 40px;
+}
+#count
+{
+    position:fixed;
+    bottom: 10px;
+    right:10px;
+    font-size: 20px;
+}
+
+.tableformobile
+{
+    width:100%;
+    border:20px solid #9d9b7b;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom:50px;
+    padding-top:50px;
+}
+
+.cartformobile
+{
+    margin-bottom: 1vw;
+    background-color: rgb(243, 255, 172);
+    padding:2vw;
+    border-radius: 2vw;
+    font-size: 25px;
+}
+.cartformobile:hover
+{
+    padding:2.2vw;
+    background-color: rgb(217, 234, 134);
+}
+.headformobile
+{
+    font-family: 'WachinangaRegular';
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    color:rgb(0, 0, 0);
+}
+
+.tablefortablet
+{
+    width:25%;
+    border:20px solid #9d9b7b;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom:90px;
+    padding-top:90px;
+}
+.showitfortablets
+{
+    display:none;
+}
+.hideit
+{
+    display:none;
+}
+
+/* from here starts the promises and qualities of the company*/
+.fcontainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    border:8px double #868469;
+    padding: 6px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: #dbb7e4;
+}
+.quality
+{
+    width:100%;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.item1
+{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 30px;
+    font-family: 'ArchitectsDaughterRegular';
+}
+.writereview
+{
+    /* display:flex;
+    justify-content:space-around;  */
+}
+
+.listen
+{
+    width:100%;
+    max-width: 450px;
+    height: 300px;
+    border-radius: 20px;
+}
+.innovate
+{
+    width:100%;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.card2
+{
+    background-color: #c4c1a7;
+}
+.card3
+{
+    background-color: rgb(160, 185, 218);
+}
+.feedback
+{
+    margin-bottom: 1vw;
+    background-color: rgb(255, 240, 172);
+    padding:1vw;
+    border-radius: 1vw;
+    font-size: 15px;
+}
+.feedback:hover
+{
+    background-color: rgb(247, 230, 156);
+    padding: 1.1vw;
+}
+
+.rwdimage1
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    display: none;
+}
+
+.contactus
+{
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+.footer
+{
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+.mylinks
+{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+.socials
+{
+    padding:20px;
+}
+.yt,.ig,.git,.linkedin,.website
+{
+    text-decoration: none;
+    color:white;
+}
+.yt:hover,.ig:hover,.git:hover,.linkedin:hover,.website:hover
+{
+    color: rgb(189, 196, 202);
+}
+
+#div5,#div4
+{
+    position: fixed;
+    top:80px;
+}
+.fcontainer2
+{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:600px)
+{
+    .toggle-button
+    {
+        display: flex;
+    }
+    .nav-links
+    {
+        width:100%;
+        display: flex;
+    }
+    .nav-links ul
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-links li
+    {
+        text-align: center;
+    }
+    .nav-links li a
+    {
+        padding: 0.5rem,1rem;
+    }
+    .navbar
+    {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .nav-links.active
+    {
+        display: flex;
+    }
+   
+    .vid
+    {
+        display:none;
+    }
+}
+
+@media only screen and (max-width:1050px)
+{
+    
+    .showit
+    {
+        display: none;
+    }
+    .showitfortablets
+    {
+        display:block;
+    }
+}
+
+@media only screen and (max-width:630px)
+{
+    
+    .showitfortablets
+    {
+        display: none;
+    }
+    .hideit
+    {
+        display: block;
+    }
+}
+
+/* rwd for promises and qualities */
+/*card rwd */
+@media only screen and (max-width:1370px)
+{
+    .quality
+    {
+        width: 300px;
+    }
+    
+}
+
+@media only screen and (max-width:1270px)
+{
+    .quality
+    {
+        width: 240px;
+    }
+    .innovate
+    {
+        width:320px;
+    }
+    .listen
+    {
+        width:350px;
+    }
+}
+
+@media only screen and (max-width:1210px)
+{
+    .item2
+    {
+        display: none;
+    }
+    .rwdimage1
+    {
+        display: inline-block;
+    }
+    .item1
+    {
+        width:100%;
+    }
+    .insidefont
+    {
+        color:aliceblue;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .feedback
+    {
+        padding:2vw;
+    }
+    .feedback:hover
+    {
+        padding: 2.2vw;
+    }
+    
+}
+/* cards rwd ends here */
+
