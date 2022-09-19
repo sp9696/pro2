@@ -228,6 +228,78 @@ body {
     display:none;
 }
 
+/* from here starts the promises and qualities of the company*/
+.fcontainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    border:8px double #868469;
+    padding: 6px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: #dbb7e4;
+}
+.quality
+{
+    width:100%;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.item1
+{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 30px;
+    font-family: 'ArchitectsDaughterRegular';
+}
+.listen
+{
+    width:100%;
+    max-width: 450px;
+    height: 300px;
+    border-radius: 20px;
+}
+.innovate
+{
+    width:100%;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.card2
+{
+    background-color: #c4c1a7;
+}
+.card3
+{
+    background-color: rgb(160, 185, 218);
+}
+.feedback
+{
+    margin-bottom: 1vw;
+    background-color: rgb(255, 240, 172);
+    padding:1vw;
+    border-radius: 1vw;
+    font-size: 15px;
+}
+.feedback:hover
+{
+    background-color: rgb(247, 230, 156);
+    padding: 1.1vw;
+}
+
+.rwdimage1
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    display: none;
+}
+
 @media (max-width:600px)
 {
     .toggle-button
@@ -284,10 +356,7 @@ body {
 
 @media only screen and (max-width:630px)
 {
-    #lol
-    {
-        border:40px solid red;
-    }
+    
     .showitfortablets
     {
         display: none;
@@ -297,3 +366,61 @@ body {
         display: block;
     }
 }
+
+/* rwd for promises and qualities */
+/*card rwd */
+@media only screen and (max-width:1370px)
+{
+    .quality
+    {
+        width: 300px;
+    }
+    
+}
+
+@media only screen and (max-width:1270px)
+{
+    .quality
+    {
+        width: 240px;
+    }
+    .innovate
+    {
+        width:320px;
+    }
+    .listen
+    {
+        width:350px;
+    }
+}
+
+@media only screen and (max-width:1210px)
+{
+    .item2
+    {
+        display: none;
+    }
+    .rwdimage1
+    {
+        display: inline-block;
+    }
+    .item1
+    {
+        width:100%;
+    }
+    .insidefont
+    {
+        color:aliceblue;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .feedback
+    {
+        padding:2vw;
+    }
+    .feedback:hover
+    {
+        padding: 2.2vw;
+    }
+}
+/* cards rwd ends here */
