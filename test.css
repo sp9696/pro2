@@ -192,12 +192,12 @@ body {
     margin-bottom: 1vw;
     background-color: rgb(243, 255, 172);
     padding:2vw;
-    border-radius: 0.5vw;
+    border-radius: 2vw;
     font-size: 25px;
 }
 .cartformobile:hover
 {
-    padding:1.1vw;
+    padding:2.2vw;
     background-color: rgb(217, 234, 134);
 }
 .headformobile
